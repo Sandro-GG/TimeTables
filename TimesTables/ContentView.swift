@@ -147,7 +147,7 @@ struct ContentView: View {
                                 TextField("", value: $answer, format: .number)
                                     .keyboardType(.decimalPad)
                                     .focused($answerFocused)
-                                    .frame(width: 110, height: 50)
+                                    .frame(width: 100, height: 50)
                                     .background(.white)
                                     .clipShape(.rect(cornerRadius: 10))
                                     .foregroundStyle(.black)
